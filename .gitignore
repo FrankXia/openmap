@@ -7,3 +7,8 @@ manifest.mf
 
 *.dll
 **/!README.TXT
+
+.idea/
+target/
+*.iml
+level_0_region/

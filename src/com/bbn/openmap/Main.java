@@ -1,4 +1,5 @@
-package openmap;
+package com.bbn.openmap;
+
 import java.util.*;
 
 public class Main {
@@ -12,10 +13,11 @@ public class Main {
         while (it.hasNext()){
             Record record = it.next();
             for (Field field : record.getFields()){
-                System.out.print(field.getValue() + "\t");
+                System.out.print(field.getName() +", " +  field.getValue() + "\n");
             }
             System.out.println();
-            if (true) break;
+            //if (true) break;
+            System.out.println("----");
         }
     }
 }

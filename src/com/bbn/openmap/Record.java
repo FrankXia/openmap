@@ -1,4 +1,5 @@
-package openmap;
+package com.bbn.openmap;
+
 import org.locationtech.jts.geom.*;
 
 public class Record {

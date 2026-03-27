@@ -1,4 +1,4 @@
-package openmap;
+package com.bbn.openmap;
 
 public class Field {
 

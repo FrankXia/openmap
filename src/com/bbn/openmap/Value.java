@@ -1,4 +1,5 @@
-package openmap;
+package com.bbn.openmap;
+
 import org.locationtech.jts.geom.*;
 
 //******************************************************************************
@@ -265,6 +266,11 @@ public class Value {
 
     public boolean isNull(){
         return value==null;
+    }
+
+
+    public boolean isGeometry() {
+        return value!=null && toGeometry()!=null;
     }
 
 
